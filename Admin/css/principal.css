@@ -1,0 +1,131 @@
+.center{
+  text-align: center;
+}
+
+
+.verticalCenter{
+  vertical-align: middle;
+
+}
+
+.logo{
+width: 100px;
+
+}
+
+.title{
+  color: blue;
+  text-align: center;
+  width:100%;
+
+}
+/*
+section{
+    display: flex; -->
+}
+*/
+.width100{
+  width:100%;
+  
+}
+
+.divFlavor{
+ width: 150px;
+ height: 100px;
+ background-color: #F7EC7D;
+ margin: 5px;
+ text-align: center;
+ vertical-align: middle;
+}
+
+.divFlavor:nth-child(2n){
+ background-color: #62306D;
+
+}
+
+.flavor{
+  
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 0px;
+   
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  line-height: 30px;
+}
+ 
+
+.centerAll{
+  width: 100%;
+  text-align: center;
+}
+
+.orderSection{
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  padding-left: 15%;
+
+}
+
+.order{
+  border-radius: 5,5,5,5 !important;
+  border-style: solid;
+  border-color: cadetblue;
+  border-width: 3px;
+  width: 70%;
+
+}
+
+.labelField{
+  display: flex;
+
+}
+
+.input{
+width: 600px;
+
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.styled-table td{
+  width: 130px;
+
+}
+
+.banner{
+  text-align: center;
+}
